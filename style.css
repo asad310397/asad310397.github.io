@@ -5,7 +5,9 @@
     --white: #EDF2F4;
     --green: #1C7C54;
 }
-
+body {
+    background-color: #1C7C54;
+}
 nav {
     background-color: var(--dark);
     width: 100%;
