@@ -3210,11 +3210,17 @@ textarea:focus::placeholder {
   display: inline-block;
   font-size: 15px;
   font-weight: 400;
-  background: #edf2f2;
+  background: var(--light-white);
   border-radius: 8px;
   padding: 5px 20px;
   margin-right: 10px;
   margin-bottom: 20px;
+
+  &:hover {
+    background-color: var(--theme-primary);
+    color: var(--common-white)
+    
+  }
 }
 
 @media (max-width: 767px) {
