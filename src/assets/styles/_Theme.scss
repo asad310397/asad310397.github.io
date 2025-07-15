@@ -1,0 +1,41 @@
+$theme-primary: #0d47a1;
+$theme-secondary: #1976d2;
+$theme-tertiary: rgba(21, 34, 54, 1);
+$theme-muted: rgba(255, 255, 255, 0.5);
+$theme-dark: hsla(210, 14%, 13%, 0.4);
+$theme-dark-item: #1a2027;
+
+$xs: 0px;
+$sm: 600px;
+$md: 900px;
+$lg: 1200px;
+$xl: 1536px;
+
+.section-bg {
+  min-height: 25vh;
+}
+
+.drop-shadow-primary {
+  // box-shadow: -1px 1px 4px $theme-primary, 1px 1px 4px $theme-primary,
+  //   1px -1px 4px $theme-primary, -1px -1px 4px $theme-primary !important;
+  &:hover {
+    box-shadow: -3px 3px 4px $theme-secondary, 3px 3px 4px $theme-secondary,
+      3px -3px 4px $theme-secondary, -3px -3px 4px $theme-secondary !important;
+  }
+}
+
+.text-muted {
+  color: $theme-muted;
+}
+
+.text-light {
+  color: white;
+}
+
+.fs-2 {
+  font-size: 2rem;
+}
+
+.text-no-decoration {
+  text-decoration: none;
+}

@@ -1,0 +1,10 @@
+.footer-one {
+  background-color: $theme-tertiary;
+  .footer-box {
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+}

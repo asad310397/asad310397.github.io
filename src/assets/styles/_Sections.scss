@@ -1,0 +1,208 @@
+/* ==================
+    BIO Section
+=================== */
+.bio-section {
+  scroll-margin-top: 150px;
+  margin: 10px;
+  padding-top: 10px;
+
+  .profile-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    img {
+      border-radius: 25px;
+      width: 100%;
+      @media screen and (max-width: $sm) {
+        width: 75%;
+      }
+    }
+  }
+  .profile-txt {
+    border-radius: 25px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+/* ==================
+  Skill Section
+=================== */
+
+.skills-section {
+  scroll-margin-top: 120px;
+  padding: 50px;
+  align-items: center;
+  justify-content: center;
+  .skill-icon {
+    width: 4rem;
+
+    @media screen and (max-width: $sm) {
+      width: 2rem;
+    }
+  }
+}
+
+/* ==================
+  Experience Section
+=================== */
+.experience-section {
+  scroll-margin-top: 120px;
+  border-radius: 25px !important;
+  min-height: 25vh;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 50px;
+  background: url("../CodeBg.png");
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.658);
+
+  .job-accordion {
+    box-shadow: none;
+  }
+}
+
+/* ==================
+  Projects Section
+=================== */
+
+.projects-section {
+  scroll-margin-top: 120px;
+  border-radius: 25px !important;
+  min-height: 25vh;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 50px;
+  background-color: $theme-dark;
+
+  .project-card {
+    padding: 25px;
+    border-radius: 25px;
+    height: 100%;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.75);
+
+    &:hover {
+      box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.75),
+        -3px 3px 4px $theme-secondary, 3px 3px 4px $theme-secondary,
+        3px -3px 4px $theme-secondary, -3px -3px 4px $theme-secondary !important;
+    }
+  }
+
+  .tabs {
+    .tab {
+      background-color: $theme-dark-item;
+
+      &:first-child {
+        border-radius: 15px 0px 0px 0px;
+      }
+      &:last-child {
+        border-radius: 0px 15px 0px 0px;
+      }
+    }
+  }
+  .tabPanel {
+    background-color: $theme-dark;
+    padding: 25px;
+  }
+}
+
+.project-modal {
+  border: none;
+  .project-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 80%;
+    border-radius: 25px;
+    padding: 25px;
+    box-shadow: 24;
+    background-color: $theme-tertiary;
+    border: none;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    // scrollbar-color: $theme-secondary $theme-dark;
+
+    &::-webkit-scrollbar-thumb {
+      background-color: $theme-secondary;
+      border: 4px solid transparent;
+      border-radius: 25px;
+      background-clip: padding-box;
+    }
+
+    &::-webkit-scrollbar {
+      background-color: $theme-dark;
+      width: 20px;
+    }
+
+    img {
+      border-radius: 25px;
+    }
+  }
+}
+
+/* ==================
+  Education Section
+=================== */
+
+.education-section {
+  scroll-margin-top: 120px;
+  border-radius: 25px !important;
+  min-height: 25vh;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 50px;
+  background: black;
+
+  .education-card {
+    background-color: $theme-dark-item;
+    padding: 50;
+    border-radius: 25px;
+  }
+}
+
+/* ==================
+  Contact Section
+=================== */
+.contact-section {
+  scroll-margin-top: 120px;
+  border-radius: 25px !important;
+  margin-left: 20px;
+  margin-right: 20px;
+
+  .form-box {
+    border-radius: 25px;
+    padding: 25px;
+    background-color: $theme-dark;
+
+    form {
+      height: 100%;
+      padding: 25px;
+      border-radius: 25px;
+      background-color: $theme-dark-item;
+      box-shadow: var(
+        --mui-shadows-1,
+        0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+        0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+        0px 1px 3px 0px rgba(0, 0, 0, 0.12)
+      );
+    }
+  }
+  .form-text {
+    border-radius: 25px;
+    background-color: $theme-tertiary;
+    padding: 50px;
+    height: 100%;
+  }
+}
+
+.paper-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
