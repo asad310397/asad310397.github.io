@@ -158,26 +158,38 @@ const Projects = () => {
                     // }
                   }}
                 >
-                  <h2>
-                    {p.title}
-                    <IconButton
-                      sx={{ color: "secondary.main" }}
-                      onClick={() => {
-                        const link = document.createElement("a");
-                        link.href = p.link;
-                        link.target = "_blank";
-                        link.click();
-                      }}
-                    >
-                      <LaunchIcon />
-                    </IconButton>
-                  </h2>
-                  <p>{p.short_description}</p>
-                  <Stack direction="row" spacing={2}>
-                    {p.tags.map((tag) => {
-                      return <Chip label={tag.alt} color="primary" />;
-                    })}
-                  </Stack>
+                  <Grid container>
+                    <Grid size={12}>
+                      <h2>
+                        {p.title}
+                        <IconButton
+                          sx={{ color: "secondary.main" }}
+                          onClick={() => {
+                            const link = document.createElement("a");
+                            link.href = p.link;
+                            link.target = "_blank";
+                            link.click();
+                          }}
+                        >
+                          <LaunchIcon />
+                        </IconButton>
+                      </h2>
+                    </Grid>
+                    <Grid size={12}>
+                      <p>{p.short_description}</p>
+                    </Grid>
+                    <Grid size={12}>
+                      <Grid container rowGap={2}>
+                        {p.tags.map((tag) => {
+                          return (
+                            <Grid size={{ md: 2, sm: 2, xs: 12 }}>
+                              <Chip label={tag.alt} color="primary" />
+                            </Grid>
+                          );
+                        })}
+                      </Grid>
+                    </Grid>
+                  </Grid>
                 </div>
               </Grid>
             );
