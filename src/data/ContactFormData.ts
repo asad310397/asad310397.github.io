@@ -28,13 +28,13 @@ export const yupValidation = Yup.object().shape({
       "valid-number",
       "Sorry, only numbers (0-9) are allowed",
       (value: string) => {
-        return Boolean(
-          value &&
-            value.split("@").length > 0 &&
-            // eslint-disable-next-line
-            value.split("@")[0].match(/[(0-9)(\-)(\()(\))( ))]*/g)[0] ==
-              value.split("@")[0]
-        );
+        if(value === null || value === undefined || value.split("@").length > 0){
+          return false;
+        }
+        else{
+          // @ts-ignore
+          return Boolean(value.split("@")[0].match(/[(0-9)(\-)(\()(\))( ))]*/g)[0] == value.split("@")[0]);
+        }
       }
     ),
   message: Yup.string()

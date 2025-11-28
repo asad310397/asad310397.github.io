@@ -1,6 +1,21 @@
 import { JobExperience } from "../@types/JobExperience";
 
 export const exp = [
+    new JobExperience(
+    "Software Engineer",
+    "Sesimi",
+    "Sept 2025",
+    "Present",
+    [
+      "Created new asynchronous bulk upload features to automate existing manual processes",
+      "Created new cron jobs that draw reports to send to stakeholders",
+      "Working with Customer Success teams to identify and create new features in the existing legacy Ruby on Rails systems to help the team meet their SLAs",
+      "Deprecating features from Ruby on Rails legacy systems and migrating them to the new React system",
+      "Writing End-to-End test cases to test new React systems to ensure a smooth migration between the existing systems to the new system"
+    ],
+    "https://sesimi.com",
+    ["React", "Ruby on Rails", "Postgres", "AWS"]
+  ),
   new JobExperience(
     "Staff Software Developer",
     "Zebra Robotics Inc",

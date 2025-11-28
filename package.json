@@ -23,6 +23,7 @@
     "react-parallax-tilt": "^1.7.299",
     "react-resizable-panels": "^3.0.3",
     "react-router-dom": "^7.6.3",
+    "react-script": "^2.0.5",
     "react-scripts": "5.0.1",
     "react-slick": "^0.30.3",
     "sass": "^1.89.2",
@@ -56,6 +57,7 @@
     ]
   },
   "devDependencies": {
-    "@types/react-slick": "^0.23.13"
+    "@types/react-slick": "^0.23.13",
+    "ajv": "^8.17.1"
   }
 }
