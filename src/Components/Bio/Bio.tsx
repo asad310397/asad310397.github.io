@@ -25,6 +25,10 @@ const Bio = () => {
         <p className="text-muted">
           Full-Stack Software Developer with 4+ years of experience building scalable SaaS and internal business platforms using React, Ruby on Rails, Node.js REST APIs, and cloud technologies on AWS. I have contributed to high-volume, multi-tenant systems processing thousands of daily transactions, while working closely with stakeholders to translate customer needs into reliable production features. Passionate about delivering clean, maintainable software that drives real business impact through performance, usability, and data-driven decision making.
         </p>
+        <br />
+        <p className="text-muted">
+          Currently building high-volume payment systems with Ruby on Rails, React, and AWS.
+        </p>
         <Skills />
       </Grid>
     </Grid>
