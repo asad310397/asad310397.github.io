@@ -23,11 +23,7 @@ const Bio = () => {
           <b>Full Stack Developer</b>
         </Typography>
         <p className="text-muted">
-          A highly motivated and enthusiastic Senior Software Developer with
-          over 5 years of experience in web development. Extensive experience in
-          React, Node, MySQL, and AWS, with a track record of identifying,
-          designing, and developing robust features in record time. Recognized
-          for teamwork, code efficiency, and innovative programming.
+          Full-Stack Software Developer with 4+ years of experience building scalable SaaS and internal business platforms using React, Ruby on Rails, Node.js REST APIs, and cloud technologies on AWS. I have contributed to high-volume, multi-tenant systems processing thousands of daily transactions, while working closely with stakeholders to translate customer needs into reliable production features. Passionate about delivering clean, maintainable software that drives real business impact through performance, usability, and data-driven decision making.
         </p>
         <Skills />
       </Grid>

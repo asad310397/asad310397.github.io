@@ -68,6 +68,13 @@ export let SkillList: SkillListType[] = [
     highlight: true,
   },
   {
+    alt: "Rails",
+    link: "coding/rails-logo.webp",
+    type: "language",
+    show: true,
+    highlight: true,
+  },
+  {
     alt: "TypeScript",
     link: "coding/typescript.e2083e1d.svg",
     type: "language",

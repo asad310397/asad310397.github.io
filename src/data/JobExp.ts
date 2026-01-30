@@ -7,11 +7,7 @@ export const exp = [
     "Sept 2025",
     "Present",
     [
-      "Created new asynchronous bulk upload features to automate existing manual processes",
-      "Created new cron jobs that draw reports to send to stakeholders",
-      "Working with Customer Success teams to identify and create new features in the existing legacy Ruby on Rails systems to help the team meet their SLAs",
-      "Deprecating features from Ruby on Rails legacy systems and migrating them to the new React system",
-      "Writing End-to-End test cases to test new React systems to ensure a smooth migration between the existing systems to the new system"
+      "At Sesimi, I contribute to a multi-tenant payments platform processing over 5,000 daily transactions for enterprise brands across North America. I develop production features using Ruby on Rails, React, MongoDB, and PostgreSQL, working with large-scale datasets and high-throughput workflows. I partner closely with Customer Service and stakeholders to deliver improvements based on live customer feedback, generate operational reports, and support reliable system performance through pull request reviews and team collaboration."
     ],
     "https://sesimi.com",
     ["React", "Ruby on Rails", "Postgres", "AWS"]
@@ -22,10 +18,7 @@ export const exp = [
     "Apr 2024",
     "Feb 2025",
     [
-      "Architected and developed a scalable React, Node, Express, and MySQL web application to allow thousands of participants from across North America to register for competitions",
-      "Led a team of 4 developers in the development of 3 different full-stack projects while maintaining a collaborative environment and delivering features 20% faster for websites with +1k monthly visitors",
-      "Integrated with a third-party learning management system database to allow managers to draw reports based on student progress",
-      "Create an email automation system that allows managers to send bulk emails from the internal portal system, reducing 30% of the administrative staff's time",
+      "As a Staff Software Developer at Zebra Robotics, I played a pivotal role in the continued development and scaling of the company’s core software platforms. I contributed across all layers of the stack, delivering and maintaining multiple production systems built with React, Node/Express REST APIs, and MySQL. Over my time at Zebra, I helped develop more than five full-stack applications supporting both customer-facing and internal operations. I worked closely with teams across the organization—including administrative staff, marketing, and curriculum developers—to ensure the software aligned with real business workflows and enabled the company’s growth across North America. My work helped transform Zebra Robotics from a single-location business with static infrastructure into a scalable, franchise-ready organization powered by modern full-stack systems.",
     ],
     "https://zebrarobotics.com",
     ["React", "Node.js", "MySQL", "AWS"]
@@ -36,8 +29,7 @@ export const exp = [
     "Jul 2022",
     "Apr 2024",
     [
-      "Integrated the customer-facing site with the internal system to automate registrations, reducing 25% of the administrative staff's tasks",
-      "Creating a custom reporting system that increased the management team's visualization of their location progress by 50%",
+      "In my role as Senior Software Developer and Team Lead, I led the development of several high-impact web platforms that became central to Zebra Robotics’ day-to-day operations. I collaborated cross-functionally with departments such as Curriculum Development, Marketing, and Operations to deliver features that improved efficiency, automation, and reporting. I mentored developers, conducted code reviews, and helped drive faster delivery across multiple concurrent projects. During this period, I was deeply involved in scaling the company’s digital infrastructure, ensuring the systems remained reliable and extensible as Zebra expanded into over 20 franchise locations.",
     ],
     "https://zebrarobotics.com",
     ["React", "Node.js", "MySQL", "AWS"]
@@ -48,7 +40,7 @@ export const exp = [
     "Jun 2021",
     "Jul 2022",
     [
-      "Redesigned the website from a static HTML website to a React, Node, Express, and MySQL stack, reducing registration errors and bugs by 80%",
+      "I began my software development career at Zebra Robotics as a Junior Software Developer, joining at a time when the company’s web presence was still based on static HTML. Even early in my role, I contributed to the company’s transition toward a modern React-based platform, helping design and implement the first versions of the new system within a small team of three developers. I gained strong hands-on experience building full-stack features, resolving production issues, and collaborating closely with senior engineers and stakeholders. This role laid the foundation for my growth into larger technical ownership and leadership responsibilities in later positions.",
     ],
     "https://zebrarobotics.com",
     ["React", "Node.js", "MySQL", "AWS"]

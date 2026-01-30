@@ -16,6 +16,9 @@ const Experience = () => {
         <Typography variant="h4" sx={{ mb: "40px" }}>
           Experience
         </Typography>
+        <p>
+          Over the past several years, I have progressed from Junior Developer to Senior and Staff-level responsibilities, contributing to both customer-facing and internal platforms. My work spans full-stack development, system modernization, feature delivery, and collaboration with cross-functional teams. I have built and maintained applications supporting enterprise customers across North America, while mentoring developers, performing code reviews, and delivering scalable solutions that improve operational efficiency.
+        </p>
         <Grid container spacing={2}>
           {exp.map((job, index) => {
             return (
@@ -38,11 +41,14 @@ const Experience = () => {
                   </AccordionSummary>
 
                   <AccordionDetails>
-                    <ul>
-                      {job.description.map((point) => {
-                        return <li>{point}</li>;
-                      })}
-                    </ul>
+                    {
+                      job.description.length > 1 ? (<ul>
+                        {job.description.map((point) => {
+                          return <li>{point}</li>;
+                        })}
+                      </ul>) : (<p>{job.description[0]}</p>)
+                    }
+
                   </AccordionDetails>
                 </Accordion>
               </Grid>
