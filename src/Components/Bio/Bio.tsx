@@ -20,14 +20,23 @@ const Bio = () => {
           Asad Siddiqui
         </Typography>
         <Typography variant="h5" color="secondary">
-          <b>Full Stack Developer</b>
+          <b>Full-Stack Developer</b>
+        </Typography>
+        <Typography variant="subtitle1" color="secondary">
+          <b>React • TypeScript • Ruby on Rails • Node.js • AWS</b>
         </Typography>
         <p className="text-muted">
-          Full-Stack Software Developer with 4+ years of experience building scalable SaaS and internal business platforms using React, Ruby on Rails, Node.js REST APIs, and cloud technologies on AWS. I have contributed to high-volume, multi-tenant systems processing thousands of daily transactions, while working closely with stakeholders to translate customer needs into reliable production features. Passionate about delivering clean, maintainable software that drives real business impact through performance, usability, and data-driven decision making.
+          Full-Stack Software Developer with 4+ years of experience building
+          scalable SaaS and internal platforms using React
+          (TypeScript/JavaScript), Ruby on Rails, Node.js REST APIs, and AWS.
+          I’ve contributed to high-volume, multi-tenant systems processing
+          thousands of daily transactions and enjoy building reliable software
+          that drives real business impact.
         </p>
         <br />
         <p className="text-muted">
-          Currently building high-volume payment systems with Ruby on Rails, React, and AWS.
+          Currently building high-volume payment systems with Ruby on Rails,
+          React (TypeScript), and AWS.
         </p>
         <Skills />
       </Grid>
