@@ -2,7 +2,7 @@ import { JobExperience } from "../@types/JobExperience";
 
 export const exp = [
   new JobExperience(
-    "Software Engineer",
+    "Software Engineer II",
     "Sesimi",
     "Sept 2025",
     "Present",
